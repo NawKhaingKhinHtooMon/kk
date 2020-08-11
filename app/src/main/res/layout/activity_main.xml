@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <Button
+        android:id="@+id/b1"
+        style="@style/b1style"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="300dp" />
+
+    <Button
+        android:id="@+id/b2"
+        style="@style/b2style"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="400dp" />
+
+    <Button
+        android:id="@+id/b3"
+        style="@style/b3style"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="500dp" />
+
+    <TextView
+        android:id="@+id/txt1"
+        style="@style/txt1style"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="200dp"
+
+        android:text="ENGLISH  LEARNING  ALPHABET" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="500dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+</RelativeLayout>
